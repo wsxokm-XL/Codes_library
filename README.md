@@ -43,6 +43,49 @@ my codes
 
 ## c
 
+### 1. 生成随机DNA序列：
+
+ 1. 生成长度为n的随机DNA序列
+
+    代码文件：generate_DNA.c
+
+    
+
+ 2. 生成指定GC含量的长度为n的随机DNA序列
+
+    代码文件：generate_GCper_DNA.c
+
+    reference：https://blog.csdn.net/qq_43655831/article/details/108245306?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-0&spm=1001.2101.3001.4242
+
+
+
+### 2. 字符串的匹配算法（基于DNA序列）：
+
+有一个字符串$S$和一个模式字符串$P$，查找$P$在$S$中的位置。
+
+ 1. 暴力匹配算法（BF）：
+
+    思想：
+
+    假设当前字符串$S$匹配到了$i$位置，模式串$P$匹配到$j$位置，分为两种情况：
+
+    - 如果当前字符匹配成功，也就是`S[i]=P[j]​`，则`i++, j++`，继续匹配下一个字符。
+    - 如果匹配失败，也就是`S[i]!=P[j]`，则`i-=(j-1), j=0`。也就是将`i`回溯，`j`置零。
+
+    代码文件：BF.c
+
+    
+
+ 2. KMP算法：
+
+    思想：空间换时间，利用next数组储存模式字符串P的信息。
+
+    代码文件：KMP.c
+
+    reference：https://blog.csdn.net/dark_cy/article/details/88698736
+
+    
+
 
 
 ## shell 
