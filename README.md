@@ -41,6 +41,14 @@ my codes
 
 
 
+### 5. 进制转换
+
+输入两个十进制正整数 n 和 base(2≤base≤16)，将 n 转换为 base 进制后输出。
+
+代码文件：bash_conversion.cpp
+
+
+
 ## c
 
 ### 1. 生成随机DNA序列：
