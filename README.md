@@ -15,15 +15,21 @@ my codes
 
 
 
-### 2. 欧几里得算法（非递归实现）：
+### 2. 欧几里得算法：
 
 输入两个整数m，n，输出它们的最大公约数（gcd）。
 
 思想：gcd(m,n)=gcd(m,n%m) ; gcd(m,0)=m
 
-代码文件：gcd_unrecursion.cpp
+ 1. 非递归：
 
+    代码文件：gcd_unrecursion.cpp
 
+	2. 递归：
+
+    代码文件：gcd_recursion.cpp
+
+    
 
 ### 3. 爬楼梯（非递归实现）：
 
@@ -107,4 +113,12 @@ my codes
 ## shell 
 
 
+
+
+
+## 算法优化
+
+### 1. 快速幂算法：
+
+reference：https://blog.csdn.net/qq_19782019/article/details/85621386
 
