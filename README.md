@@ -108,6 +108,18 @@ my codes
 
     
 
+### 3. 排序
+
+
+
+### 4.DNA序列全局比对：
+
+随机生成2个长度为100，GC含量为41%的随机DNA序列，根据打分规则输出最优的成对全局比对。
+
+Needleman-Wunsch算法
+
+代码文件：opitmal_alignment.c
+
 
 
 ## shell 

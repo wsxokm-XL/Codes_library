@@ -1,6 +1,7 @@
 //gcd_unrecursion.cpp
 /*
 输入两个整数m，n，输出它们的最大公约数（gcd）
+非递归实现
 */
 #include<iostream>
 using namespace std;
