@@ -11,7 +11,7 @@ char random_ATCG()
 {
 	int random=rand()%4;
 	return "ATCG"[random];
-}随机生成A、T、C、G
+}//随机生成A、T、C、G
 
 void random_seq(int length,char *seq)
 {
