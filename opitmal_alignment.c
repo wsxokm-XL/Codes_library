@@ -39,7 +39,7 @@ void random_seq(int length,int GCp,char *seq)
 	int GCn=GCp*(length)/100;
 
 	int *arr;int rand_tmp;
-	arr=(int*)malloc(sizeof(int)*(length)); 
+	arr=(int*)malloc(sizeof(int)*(length));
 	for(i=0;i<length;i++)
 		arr[i]=i;
 	for(i=0;i<length;i++)
@@ -65,7 +65,7 @@ void random_seq(int length,int GCp,char *seq)
 	}
 	seq[length]='\0';
 	free(arr);
-} 
+}
 
 int score(char *seq1,char *seq2, int back[LEN+1][LEN+1])
 {
@@ -98,7 +98,7 @@ int score(char *seq1,char *seq2, int back[LEN+1][LEN+1])
 						{
 							matrix[m][n]=up;
 							back[m][n]=-2;
-						}//上	
+						}//上
 						else
 						{
 							matrix[m][n]=up;
@@ -116,7 +116,7 @@ int score(char *seq1,char *seq2, int back[LEN+1][LEN+1])
 						{
 							matrix[m][n]=up;
 							back[m][n]=-2;
-						}//上	
+						}//上
 						else
 						{
 							matrix[m][n]=up;
@@ -134,7 +134,7 @@ int score(char *seq1,char *seq2, int back[LEN+1][LEN+1])
 						{
 							matrix[m][n]=up;
 							back[m][n]=-2;
-						}//上	
+						}//上
 						else
 						{
 							matrix[m][n]=up;
@@ -179,12 +179,12 @@ int main()
 			break;
 	}
 
-	for(;i>=0;i--)
+	for(i--;i>=0;i--)
 	printf("%c",S[i]);
 
 	printf("\n");
 
-	for(;j>=0;j--)
+	for(j--;j>=0;j--)
 	printf("%c",T[j]);
 
 	printf("\n");
