@@ -1,4 +1,4 @@
-//opitmal_alignment.c
+//optimal_alignment.c
 /*
 随机生成2个长度为100，GC含量为41%的随机DNA序列。
 根据打分规则（match=3,mismatch=-3,gap=-2）
@@ -7,7 +7,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
-#include<string.h>
 #define LEN 100
 #define GC 41
 
